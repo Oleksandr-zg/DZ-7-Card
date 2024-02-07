@@ -1,16 +1,19 @@
+* {
+    box-sizing: border-box
+}
+
 h1 {
     text-align: center;
 }
 
 .container {
-    display: grid;
-    gap: 10px 10px;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    padding: 10px; 
+    width: 670px;
+    margin: auto;
 }
 
 .container_blocks {
+    display: inline-block;
+    margin: 10px;
     width: 200px;
     height: 226px;
     background: rgb(224, 224, 224);
@@ -40,5 +43,4 @@ h1 {
     font-size: 14px;
     text-align: center;
     margin: 10px 0px 18px;
-
 }
